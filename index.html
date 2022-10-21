@@ -1,10 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>GOIT Tennis Learning Site</title>
-	</head>
-	<body> </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>GOIT Tennis Learning Site</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html"
+            ><img src="./images/logo.svg" alt="Logo" width="210" height="48"
+          /></a>
+          <ul class="list">
+            <li class="item"><a href="#benefits" class="link">Benefits</a></li>
+            <li class="item"><a href="#features" class="link">Features</a></li>
+            <li class="item"><a href="#about" class="link">About</a></li>
+            <li class="item"><a href="#team" class="link">Team</a></li>
+          </ul>
+          <button type="button" class="button secondary">Register</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container">
+          <div class="row">
+            <div class="hero-details">
+              <h1 class="title">Awesome User Interface is what we can apply</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue et eros, pellentesque
+                et. Tristique ullamcorper ac pharetra in nisi sit vivamus lorem.
+              </p>
+              <button class="button">
+                Get started
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="col">
+              <img src="./images/girl.png" alt="Girl plaing tennis" width="372" height="600" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages section" id="benefits">
+        <div class="container">
+          <div class="row">
+            <div class="advantages-details">
+              <h2 class="title">Advantages</h2>
+              <p class="subtitle">Our Benefits</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae nullam
+                aliquet dignissim quis. Vel, faucibus ac justo aliquam donec enim, commodo fermum
+                vitae. Et velit sceleris, commodo fermentum vitae. Et velit sceleris
+              </p>
+              <button class="button">
+                Get started
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </button>
+            </div>
+            <ul class="list">
+              <li class="item">
+                <div class="image-box">
+                  <svg height="24" width="24">
+                    <use href="./images/icons.svg#icon-smart-car"></use>
+                  </svg>
+                </div>
+                <h3 class="name">Car Rental</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae
+                </p>
+              </li>
+              <li class="item">
+                <div class="image-box">
+                  <svg height="24" width="24">
+                    <use href="./images/icons.svg#icon-ship"></use>
+                  </svg>
+                </div>
+                <h3 class="name">Boat Cruise</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae
+                </p>
+              </li>
+              <li class="item">
+                <div class="image-box">
+                  <svg height="24" width="24">
+                    <use href="./images/icons.svg#icon-bus"></use>
+                  </svg>
+                </div>
+                <h3 class="name">Bus Trip</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae
+                </p>
+              </li>
+              <li class="item">
+                <div class="image-box">
+                  <svg height="24" width="24">
+                    <use href="./images/icons.svg#icon-driving"></use>
+                  </svg>
+                </div>
+                <h3 class="name">Road Trip</h3>
+                <p class="text">
+                  Lorem ipsum dolor sit ame, consectetur adipiscing elit. Sit quis vitae
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="features section" id="features">
+        <div class="container">
+          <h2 class="title">Features</h2>
+          <p class="subtitle">What we can apply</p>
+          <ul class="list row">
+            <li class="item">
+              <div class="image-box">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-python"></use>
+                </svg>
+              </div>
+              <h3>MOT consectet</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae
+              </p>
+            </li>
+            <li class="item">
+              <div class="image-box">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-iost"></use>
+                </svg>
+              </div>
+              <h3>MOT consectet</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae
+              </p>
+            </li>
+            <li class="item">
+              <div class="image-box">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-stacks"></use>
+                </svg>
+              </div>
+              <h3>MOT consectet</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-us section" id="about">
+        <div class="container">
+          <div class="row">
+            <img
+              src="./images/people-laughing.jpg"
+              alt="People laughing"
+              width="570"
+              height="530"
+            />
+            <div class="col">
+              <h2 class="title">About us</h2>
+              <p class="subtitle">Who we are</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae nullam
+                aliquet dignissim quis. Vel, faucibus ac justo aliquam donec enim, commodo fermentum
+                vitae. Et velit sceleris, commodo entum vitaefermentum vitae. Et velit sceleris
+                nullam aliquet dignissim
+              </p>
+              <button class="button">
+                Get started
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team section" id="team">
+        <div class="container">
+          <h2 class="title">Our Team</h2>
+          <p class="subtitle">How we look like</p>
+          <ul class="list row">
+            <li class="item">
+              <img
+                class="image"
+                src="./images/man-in-red.png"
+                alt="Men in red"
+                width="180"
+                height="264"
+              />
+              <div class="team-member-details">
+                <h3>CTO May & Baker</h3>
+                <p class="name">Tayo Oshinuwa</p>
+              </div>
+              <p class="description">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae“
+              </p>
+            </li>
+            <li class="item">
+              <img
+                class="image"
+                src="./images/bright-women.png"
+                alt="Bright woman"
+                width="170"
+                height="264"
+              />
+              <div class="team-member-details">
+                <h3>CTO May & Baker</h3>
+                <p class="name">Tayo Oshinuwa</p>
+              </div>
+              <p class="description">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae“
+              </p>
+            </li>
+            <li class="item">
+              <img
+                class="image"
+                src="./images/relaxed-man.png"
+                alt="Relaxed woman"
+                width="180"
+                height="264"
+              />
+              <div class="team-member-details">
+                <h3>CTO May & Baker</h3>
+                <p class="name">Tayo Oshinuwa</p>
+              </div>
+              <p class="description">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae“
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <section>
+        <div class="container footer-wrapper">
+          <div class="col column1">
+            <a href="./index.html"
+              ><img class="image logo" src="./images/logo.svg" alt="Logo" width="210" height="48"
+            /></a>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p class="text">Copyright © 2022 AWESOME</p>
+            <p class="text">All rights reserved</p>
+            <ul class="list row social">
+              <li class="item">
+                <a href="#">
+                  <div class="image-box">
+                    <svg class="icon" height="16" width="16">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#">
+                  <div class="image-box">
+                    <svg class="icon" height="16" width="16">
+                      <use href="./images/icons.svg#icon-dribbble"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#">
+                  <div class="image-box">
+                    <svg class="icon" height="16" width="16">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#">
+                  <div class="image-box">
+                    <svg class="icon" height="16" width="16" text-area="Youtube">
+                      <use href="./images/icons.svg#icon-youtube"></use>
+                    </svg>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-other">
+            <p class="column-title">Company</p>
+            <p class="text">Lorem Ipsum 1</p>
+            <p class="text">Lorem 3</p>
+            <p class="text">Lorem 4</p>
+            <p class="text">Lorem 5</p>
+          </div>
+          <div class="col col-other">
+            <p class="column-title">Support</p>
+            <p class="text">Lorem Ipsum 6</p>
+            <p class="text">Lorem Ipsum 7</p>
+            <p class="text">Lorem Ipsum 8</p>
+            <p class="text">Lorem Ipsum 9</p>
+          </div>
+          <div class="col">
+            <p class="column-title">Send message</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
