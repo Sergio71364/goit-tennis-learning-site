@@ -33,7 +33,7 @@
             <li class="item"><a href="#about" class="link">About</a></li>
             <li class="item"><a href="#team" class="link">Team</a></li>
           </ul>
-          <button type="button" class="button secondary">Register</button>
+          <button type="button" class="button secondary" data-modal-open>Register</button>
         </nav>
       </div>
     </header>
@@ -47,7 +47,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue et eros, pellentesque
                 et. Tristique ullamcorper ac pharetra in nisi sit vivamus lorem.
               </p>
-              <button class="button">
+              <button class="button" data-modal-open>
                 Get started
                 <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-vector"></use>
@@ -71,7 +71,7 @@
                 aliquet dignissim quis. Vel, faucibus ac justo aliquam donec enim, commodo fermum
                 vitae. Et velit sceleris, commodo fermentum vitae. Et velit sceleris
               </p>
-              <button class="button">
+              <button class="button" data-modal-open>
                 Get started
                 <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-vector"></use>
@@ -187,7 +187,7 @@
                 vitae. Et velit sceleris, commodo entum vitaefermentum vitae. Et velit sceleris
                 nullam aliquet dignissim
               </p>
-              <button class="button">
+              <button class="button" data-modal-open>
                 Get started
                 <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-vector"></use>
@@ -336,5 +336,15 @@
         </div>
       </section>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="close-button" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
